@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk update
 RUN apk upgrade
-RUN apk add openjdk8 screen
+RUN apk add openjdk8
 
 WORKDIR /opt
 RUN mkdir minecraft
